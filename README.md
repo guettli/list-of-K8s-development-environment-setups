@@ -6,7 +6,7 @@ How to set up my local development environment?
 
 There are thousand ways to do this, and I have no clue.
 
-That's why I created this list.
+That's why I created this list. I want an overview of all options.
 
 ## Hermetic
 
