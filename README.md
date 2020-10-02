@@ -21,7 +21,7 @@ For more about this topic you can read this [Hermetic Testing Article](https://t
 Some freaks like to develop on machines with the text editor vi. This has the benefit that you can execute
 it easily in a container. Although the start up phase feels fast, it is not not confinient and not efficient in the long run.
 
-I want to use a modern IDE (for example an IntellJ baesed IDE or VSCode)
+I want to use a modern IDE (for example an IntellJ based IDE or VSCode)
 
 
 ## Docker vs minikube vs local install
