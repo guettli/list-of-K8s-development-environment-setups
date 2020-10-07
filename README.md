@@ -48,7 +48,11 @@ Or [odo of OpenShift](https://github.com/openshift/odo)
 
 ## Option 3: local install
 
-Install them locally. Depending on your OS you have many choices (apt, snap, msi, ...). This could get automated with for example Ansible.
+Install and run all services (DB, Cache, Webserver, ...) locally. Depending on your OS you have many choices (apt, snap, msi, ...). This could get automated with for example Ansible.
+
 
 Pro:
 * Accessing the services is easy. 
+
+Con:
+* Development environment and production environment are different.
