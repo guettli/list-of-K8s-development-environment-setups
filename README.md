@@ -44,6 +44,8 @@ But how to get the code updates into the container?
 
 One solution: [Skaffold](https://skaffold.dev/)
 
+Or [odo of OpenShift](https://github.com/openshift/odo)
+
 ## Option 3: local install
 
 Install them locally. Depending on your OS you have many choices (apt, snap, msi, ...). This could get automated with for example Ansible.
