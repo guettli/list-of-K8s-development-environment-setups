@@ -16,27 +16,37 @@ I want to be able to develop without internet connection.
 
 For more about this topic you can read this [Hermetic Testing Article](https://testing.googleblog.com/2012/10/hermetic-servers.html).
 
-## IDE with GUI
+## Background: IDE with GUI
 
 Some freaks like to develop on machines with the text editor vi. This has the benefit that you can execute
 it easily in a container. Although the start up phase feels fast, it is not not convenient and not efficient in the long run.
 
 I want to use a modern IDE (for example an IntellJ based IDE or VSCode)
 
-
-## Docker vs minikube vs local install
+## Requirements
 
 I need one or several services like: PostgreSQL, Nginx, Nodejs, ElasticSearch, Minio (S3), ....
 
 How to get them running on my local machine?
 
-I see these ways:
+I want a super fast edit/compile/test cycle, since this gets done several hundret times per day.
 
-* install them locally. Depending on your OS you have many choices (apt, snap, msi, ...). This could get automated with for example Ansible.
-* use docker
-* use minikube
 
-## local install
+## Option 1: Docker
+
+The IDE need to support this.
+
+TODO: Links to detailed docs.
+
+## Option 2: Minikube
+
+But how to get the code updates into the container? 
+
+One solution: [Skaffold](https://skaffold.dev/)
+
+## Option 3: local install
+
+Install them locally. Depending on your OS you have many choices (apt, snap, msi, ...). This could get automated with for example Ansible.
 
 Pro:
 * Accessing the services is easy. 
