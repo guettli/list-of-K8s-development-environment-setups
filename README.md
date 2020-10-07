@@ -8,7 +8,7 @@ There are thousand ways to do this, and I have no clue.
 
 That's why I created this list. I want an overview of all options.
 
-## Hermetic
+## Background: Hermetic Environment
 
 I want my development environment to be **hermetic**. Which means
 all services I need are on my local machine, or are mocked.
