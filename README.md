@@ -29,7 +29,7 @@ I need one or several services like: PostgreSQL, Nginx, Nodejs, ElasticSearch, M
 
 How to get them running on my local machine?
 
-I want a super fast edit/compile/test cycle, since this gets done several hundret times per day.
+I want a super fast edit/compile/test cycle (aka "inner loop"), since this gets done several hundret times per day.
 
 
 ## Option 1: Docker
