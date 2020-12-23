@@ -56,3 +56,8 @@ Pro:
 
 Con:
 * Development environment and production environment are different.
+  
+  
+I use this option now. I develop my Django code in a Python virtualenv. This is lightweight and easy. It does not matter if my code
+runs in docker swarm, kubernetes or a VPS later.
+
